@@ -16,43 +16,6 @@
     <script src="https://kit.fontawesome.com/872e0c5d3e.js" crossorigin="anonymous"></script>
     <!-- CSS-->
     <link rel="stylesheet" href="style.css">
-    <style>
-        /* .cart {
-            top: 0;
-            right: 0;
-            width: 100%;
-            min-height: 100vh;
-            padding: 20px;
-            background-color: antiquewhite;
-
-        }
-        .cart-box{
-            display: grid;
-            grid-template-columns: 32% 50% 18%;
-            align-items: center;
-            gap: 1rem;
-            margin-top: 1rem;
-
-        }
-        .cart-img{
-            width: 50%;
-            height: 200px;
-            object-fit: contain;
-            padding: 10px;
-
-
-        }
-        .details-box{
-            display: grid;
-            row-gap: 0.5rem;
-
-        }
-        .cart-product-title{
-            font-size: 1rem;
-            text-transform: uppercase;
-            font-size: large;
-        } */
-    </style>
 
 </head>
 
@@ -277,7 +240,23 @@ close -->
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-    <script src="script.js"> </script>
+        <script>
+            const bar = document.getElementById('bar');
+            const close = document.getElementById('close');
+            const nav = document.getElementById('navbar');
+    
+            if (bar) {
+                bar.addEventListener('click', () => {
+                    nav.classList.add('active');
+                })
+            }
+    
+            if (close) {
+                close.addEventListener('click', () => {
+                    nav.classList.remove('active');
+                })
+            }
+        </script>
 </body>
 
 </html>
