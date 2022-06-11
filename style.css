@@ -1234,17 +1234,7 @@ footer .copyright {
 
     /*cartpage*/
 
-    #cart-add {
-        flex-direction: column;
-    }
-    #coupon{
-        width: 100%;
-        
-    }
-    #subtotal {
-        width: 100%;
-        padding: 20px;
-    }
+    
 
 }
 
@@ -1371,4 +1361,18 @@ footer .copyright {
     border: 1px solid #e2e9e1;
     padding: 10px;
     font-size: 13px;
+}
+
+@media (max-width:799px) {
+    #cart-add {
+        flex-direction: column;
+    }
+    #coupon{
+        width: 100%;
+        
+    }
+    #subtotal {
+        width: 100%;
+        padding: 20px;
+    }
 }
