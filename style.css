@@ -541,10 +541,11 @@ hr {
 }
 
 .product:hover img {
-
-    opacity: 0.7;
-
-
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    transform: 0.4s all line;
 
 }
 
@@ -566,6 +567,7 @@ hr {
 
 
 }
+
 
 .buy-button:hover {
     background-color: black;
@@ -1232,7 +1234,6 @@ footer .copyright {
         margin-left: 0;
     }
 
-    /*cartpage*/
 
     
 
