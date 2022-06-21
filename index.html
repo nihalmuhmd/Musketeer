@@ -19,6 +19,9 @@
     <script src="https://kit.fontawesome.com/872e0c5d3e.js" crossorigin="anonymous"></script>
     <!-- CSS-->
     <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
 
 </head>
 
@@ -29,7 +32,13 @@
         <div>
             <ul id="navbar">
                 <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="shop.html">Shope</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Shop</a>
+                    <div class="dropdown-content">
+                        <a href="men.html">Men</a>
+                        <a href="women.html">Women</a>
+                    </div>
+                </li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li id="lg-bg"><a href="cart.html"><i class='bx bx-shopping-bag bx-md'></i></a></li>
@@ -58,20 +67,10 @@
                 </p>
                 <button onclick="window.location.href='shop.html';">Explore</button>
             </div>
-            <div class="slides slowFade">
-                <div class="slide">
-                    <img src="img/banner/slide-4 sm.jpg" alt="img" />
-                </div>
-                <div class="slide">
-                    <img src="img/banner/slide-2 sm.jpg" alt="img" />
-                </div>
-                <div class="slide">
-                    <img src="img/banner/slide-3 sm.jpg" alt="img" />
-                </div>
-                <div class="slide">
-                    <img src="img/banner/slide-1 sm.jpg" alt="img" />
-                </div>
+            <div class="sect-2">
+                <img src="img/pexels-athena-2043590.jpg" alt="">
             </div>
+            
         </div>
 
     </section>
