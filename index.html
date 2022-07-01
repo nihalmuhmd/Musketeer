@@ -20,7 +20,10 @@
     <!-- CSS-->
     <link rel="stylesheet" href="style.css">
     <style>
-        
+        .main img {
+            width: 100%;
+            background-size: cover;
+        }
     </style>
 
 </head>
@@ -28,7 +31,7 @@
 <body>
     <!-- Navigation -->
     <section id="header">
-        <a href="index.html"><img src="img/logo-02-02.png" class="logo" alt=""></a>
+        <a href="index.html"><img src="img/Logo.png" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
                 <li><a class="active" href="index.html">Home</a></li>
@@ -37,11 +40,12 @@
                     <div class="dropdown-content">
                         <a href="men.html">Men</a>
                         <a href="women.html">Women</a>
+
                     </div>
                 </li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
                 <li><a href="registration.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li id="lg-bg"><a href="cart.html"><i class='bx bx-shopping-bag bx-md'></i></a></li>
                 <a id="close"><i class="fa fa-times" aria-hidden="true"></i></a>
             </ul>
@@ -58,23 +62,42 @@
     <section id="hero">
         <div class="main container col-lg-6 col-md-6 col-12">
             <div class="sect-1 ">
-                <h1>Best value</h1>
-                <h1>Selling product</h1>
-                <h1>Styles this month</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur <br>
-                    adipiscing elit, sed do eiusmod tempor <br>
-                    incididunt ut labore et dolore magna <br>
-                    aliqua.
-                </p>
+                <p>NEW <span>
+                COLLECTION</span> </p>
+                
                 <button onclick="window.location.href='shop.html';">Explore</button>
             </div>
             <div class="sect-2">
-                <img src="img/pexels-athena-2043590.jpg" alt="">
+                <div class="w3-content w3-section" style="max-width:500px">
+                    <img class="mySlides" src="img/hero-1.png" style="width:100%">
+                    <img class="mySlides" src="img/hero-2.png" style="width:100%">
+                    <img class="mySlides" src="img/hero-3.png" style="width:100%">
+                    <img class="mySlides" src="img/hero-4.png" style="width:100%">
+                    <img class="mySlides" src="img/hero-5.png" style="width:100%">
+                </div>
             </div>
-            
+
         </div>
 
     </section>
+    <div class="marq">
+
+        <marquee behavior="scroll" direction="left">Here is some scrolling text... right to left! literature from 45 BC,
+            making it over 2000 years old. Richard
+            McClintock, a Latin professor at
+            Hampden-Sydney College in Virginia,
+            looked up one of the more obscure Latin
+            words, consectetur, from a Lorem Ipsum
+            passage, and going through the cites of the
+            word in classical literature, discovered the
+            undoubtable source. Lorem Ipsum comes
+            from sections 1.10.32 and 1.10.33 of "de
+            Finibus Bonorum et Malorum" (The Extremes
+            of Good and Evil) by Cicero,
+            from a Lorem Ipsum
+            passage, and going</marquee>
+
+    </div>
 
     <!-- feature  
 
@@ -180,25 +203,25 @@
     <section id="new" class="w-100 ">
         <div class="row p-0 m-0 ">
             <div class="one col-lg-4 col-md-12 col-12 p-0">
-                <img class="img-fluid" src="img/banner/ban1.jpg" alt="">
+                <img class="img-fluid" src="img/Ltest/Extream 1-01.png" alt="">
                 <div class="details">
-                    <h2>Extreme Rare</h2>
+                    <h2>Extreme Rare Wallets</h2>
                     <button class="news-button text-uppercase">Shop Now</button>
                 </div>
             </div>
 
 
             <div class="one col-lg-4 col-md-12 col-12 p-0">
-                <img class="img-fluid" src="img/banner/ban2.jpg" alt="">
+                <img class="img-fluid" src="img/Ltest/Extream 1-02.png" alt="">
                 <div class="details">
-                    <h2>Extreme Rare Bags</h2>
+                    <h2>Extreme Rare </h2>
                     <button class="news-button">Shop Now</button>
                 </div>
             </div>
 
 
             <div class="one col-lg-4 col-md-12 col-12 p-0">
-                <img class="img-fluid" src="img/banner/ban3.jpg" alt="">
+                <img class="img-fluid" src="img/Ltest/Extream 1-03.png" alt="">
                 <div class="details">
                     <h2>Extreme Rare Bags</h2>
                     <button class="news-button">Shop Now</button>
@@ -402,6 +425,21 @@
             close.addEventListener('click', () => {
                 nav.classList.remove('active');
             })
+        }
+
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
         }
     </script>
 </body>
