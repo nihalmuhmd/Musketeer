@@ -307,6 +307,7 @@ li.dropdown {
     cursor: pointer;
     border-radius: 5px;
     text-transform: uppercase;
+    outline: none;
 }
 /*
 #hero button:hover {
