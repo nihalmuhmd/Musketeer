@@ -509,14 +509,7 @@ li.dropdown {
     margin: 4px 2px;
     cursor: pointer;
     text-transform: uppercase;
-
-
-}
-
-
-.buy-button:hover {
-    background-color: black;
-
+    outline: none;
 
 
 }
@@ -653,7 +646,7 @@ footer .copyright {
 
 .news-button {
     height: 50px;
-    background-color: #933B1E;
+    background-color: black;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -667,25 +660,10 @@ footer .copyright {
     cursor: pointer;
     border-radius: 0;
     text-transform: uppercase;
+    outline: none;
 }
 
-.news-button:hover {
-    height: 50px;
-    background-color: white;
-    border: none;
-    color: #933B1E;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    justify-content: baseline;
-    font-size: 0.8rem;
-    font-weight: 700;
-    margin: 0px 2px;
-    cursor: pointer;
-    border-radius: 0;
-    text-transform: uppercase;
-}
+
 
 /*******  News Letter End********/
 
@@ -819,7 +797,7 @@ footer .copyright {
 }
 
 .buy-button {
-    background-color: #933B1E;
+    background-color: black;
     opacity: 1;
     transition: 0.3s ease;
     max-width: max-content;
@@ -835,6 +813,7 @@ footer .copyright {
     cursor: pointer;
     border-radius: 0;
     text-transform: uppercase;
+    outline: none;
 }
 
 .dis {
