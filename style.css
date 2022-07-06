@@ -145,7 +145,12 @@ li a,
 li.dropdown {
     display: inline-block;
 }
+.logo{
+    width: 15%;
+    height: 100%;
+    background-size: cover;
 
+}
 .dropdown-content {
     display: none;
     position: absolute;
@@ -227,6 +232,12 @@ li.dropdown {
 
     #lg-bg {
         display: none;
+    }
+    .logo{
+        width: 40%;
+        height: 100%;
+        background-size: cover;
+    
     }
 }
 
@@ -501,7 +512,7 @@ footer {
 footer h5 {
     color: #212120;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 
 footer h6 {
@@ -516,7 +527,7 @@ footer li {
 }
 
 footer li a {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     color: #999;
     text-decoration: none;
 }
@@ -529,35 +540,26 @@ footer li a:hover {
 
 footer p {
     color: #999;
+    font-size: 0.6rem;
 }
 
 footer .icon i {
-    color: #ffffff;
-    width: 38px;
-    height: 38px;
-    background-color: #465b52;
+    color: black;
     display: inline-block;
     text-align: center;
     line-height: 38px;
-    border-radius: 50%;
-    transition: 0.3s ease;
-    margin: 0 5px;
-}
-
-footer .icon i:hover {
-    color: #ffffff;
-    width: 38px;
-    height: 38px;
-    background-color: #933B1E;
-    display: inline-block;
-    text-align: center;
-    line-height: 38px;
-    border-radius: 50%;
     transition: 0.3s ease;
     margin: 0 5px;
     cursor: pointer;
 }
-
+.fa-whatsapp{
+    text-decoration: none;
+    color: #000;
+}
+.fa-whatsapp:hover{
+    text-decoration: none;
+    color: #000;
+}
 footer .copyright {
     width: 100%;
     display: flex;
