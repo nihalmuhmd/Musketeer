@@ -30,16 +30,20 @@ h3 {
     color: #222;
     font-family: 'Merriweather', serif;
 }
-span{
+
+span {
     font-family: 'Merriweather', serif;
-    
+
 }
-li{
+
+li {
     font-family: 'Merriweather', serif;
 }
-a{
+
+a {
     font-family: 'Merriweather', serif;
 }
+
 h4 {
     font-size: 1.1rem;
     font-weight: 800;
@@ -145,12 +149,14 @@ li a,
 li.dropdown {
     display: inline-block;
 }
-.logo{
+
+.logo {
     width: 15%;
     height: 100%;
     background-size: cover;
 
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -233,11 +239,12 @@ li.dropdown {
     #lg-bg {
         display: none;
     }
-    .logo{
+
+    .logo {
         width: 38%;
         height: 100%;
         background-size: cover;
-    
+
     }
 }
 
@@ -263,8 +270,9 @@ li.dropdown {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
+
 .sect-1 h1 {
     font-family: 'Merriweather', serif;
     color: white;
@@ -279,7 +287,8 @@ li.dropdown {
     font-size: 20px;
 
 }
-.sect-1 p span{
+
+.sect-1 p span {
     display: none;
 }
 
@@ -300,12 +309,32 @@ li.dropdown {
     text-transform: uppercase;
     outline: none;
 }
-/*
-#hero button:hover {
-    background-color: #933B1E;
-    transition: .5s ease-in-out;
+.watsapp{
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
-*/
+
+.whats-app {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    right: 15px;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 10px;
+}
+
 .marq {
     background-color: black;
     color: white;
@@ -329,7 +358,7 @@ li.dropdown {
         justify-content: flex-end;
         width: 80%;
         height: auto;
-        padding: inherit;   
+        padding: inherit;
     }
 
     .sect-1 h1 {
@@ -346,12 +375,13 @@ li.dropdown {
         font-family: 'Merriweather', serif;
         text-align: center;
         font-size: 15px;
-        
+
     }
-    .sect-1 p span{
+
+    .sect-1 p span {
         display: none;
-        
-       
+
+
     }
 }
 
@@ -370,7 +400,8 @@ li.dropdown {
         font-family: 'Merriweather', serif;
         font-size: 15px;
     }
-    .sect-1 p span{
+
+    .sect-1 p span {
         display: none;
     }
 }
@@ -426,6 +457,7 @@ li.dropdown {
     padding: 2.5px;
     transform: translateY(70px);
     transition: 0.3s ease;
+    outline: none;
 }
 
 #new .one .details button:hover {
@@ -464,10 +496,10 @@ li.dropdown {
 /******* Product *******/
 
 .product {
-    
 
     margin-bottom: 2rem;
 }
+
 .product img {
     border-radius: 0;
     transition: 0.3s all;
@@ -552,14 +584,17 @@ footer .icon i {
     margin: 0 5px;
     cursor: pointer;
 }
-.fa-whatsapp{
+
+.fa-whatsapp {
     text-decoration: none;
     color: #000;
 }
-.fa-whatsapp:hover{
+
+.fa-whatsapp:hover {
     text-decoration: none;
     color: #000;
 }
+
 footer .copyright {
     width: 100%;
     display: flex;
@@ -642,6 +677,10 @@ footer .copyright {
     text-decoration: none;
 }
 
+.news-button:hover {
+    text-decoration: none;
+}
+
 
 
 /*******  News Letter End********/
@@ -659,7 +698,7 @@ footer .copyright {
         height: 265px;
     }
 
-    
+
 }
 
 
