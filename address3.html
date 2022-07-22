@@ -22,7 +22,7 @@
     <style>
         .log {
             width: 100%;
-            height: 90vh;
+            height: 100vh;
             font-family: sans-serif;
             background: white;
             color: #fff;
@@ -101,7 +101,7 @@
         
 
         .buy-button {
-            background-color: wheat;
+            background-color: white;
             width: max-content;
             border: none;
             color: black;
@@ -125,6 +125,7 @@
         }
         .save{
             padding-top: 5px;
+            
         }
 
         span {
@@ -158,7 +159,7 @@
                         <p>Contact Details</p>
                         <input type="text" class="input-box" placeholder="Name*" required>
                         <input type="number" class="input-box" placeholder="Mobile Number*" required>
-                        <p>Address</p>
+                        <p  class="save">Address</p>
                         <input type="text" class="input-box" placeholder="Pincode*" required>
                         <input type="text" class="input-box" placeholder="Addres(Street,Area)*" required>
                         <input type="text" class="input-box" placeholder="Locality/Town*" required>
@@ -182,16 +183,6 @@
     </script>
 
 
-
-
-
-
-
-
-
-
-
-
     <!-- JavaScript Bundle with Popper -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -204,36 +195,7 @@
         crossorigin="anonymous"></script>
 
     <script>
-        const bar = document.getElementById('bar');
-        const close = document.getElementById('close');
-        const nav = document.getElementById('navbar');
-
-        if (bar) {
-            bar.addEventListener('click', () => {
-                nav.classList.add('active');
-            })
-        }
-
-        if (close) {
-            close.addEventListener('click', () => {
-                nav.classList.remove('active');
-            })
-        }
-
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            myIndex++;
-            if (myIndex > x.length) { myIndex = 1 }
-            x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 2000); // Change image every 2 seconds
-        }
+        
     </script>
 </body>
 
