@@ -299,7 +299,7 @@ li.dropdown {
     color: white;
     padding: 9px 30px;
     text-align: center;
-    text-decoration: none;
+    
     display: inline-block;
     font-size: 0.9rem;
     font-weight: 700;
@@ -309,27 +309,25 @@ li.dropdown {
     text-transform: uppercase;
     outline: none;
 }
-.watsapp{
-    background-color: red;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
+
 
 .whats-app {
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50px;
     height: 50px;
     bottom: 40px;
-    background-color: #25d366;
+    background-color: black;
     color: white;
     border-radius: 50px;
-    text-align: center;
     font-size: 30px;
     right: 15px;
     z-index: 100;
 }
+
+
 
 .my-float {
     margin-top: 10px;
@@ -587,7 +585,7 @@ footer .icon i {
 
 .fa-whatsapp {
     text-decoration: none;
-    color: #000;
+    color: white;
 }
 
 .fa-whatsapp:hover {
